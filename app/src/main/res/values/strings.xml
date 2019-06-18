@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MEILI</string>
+    <string name="open">Drawer Open</string>
+    <string name="closed">Drawer Closed</string>
+    <string name="action_settings">Action Settings</string>
+    <string name="aboutUs">Meiliglobal initiative was to create an application from scratch, aimed at professionals, that would allow them to easily communicate, exchange scope covered.We designed clean and simple interface that
+documents, organizes meetings, and holds video conferences. Our interface intuitively integrated Orange’s extensive feature offerings. Our project scope covered the entire product, spanning from web design, to both front-end and development and an accompanying app.</string>
+
+</resources>
