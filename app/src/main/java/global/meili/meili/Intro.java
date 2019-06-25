@@ -1,6 +1,7 @@
 package global.meili.meili;
 
 
+
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
@@ -20,6 +21,7 @@ public class Intro extends AppCompatActivity {
    private DrawerLayout drawerLayout;
    private NavigationView navigationView;
    FragmentManager fragmentManager1=getSupportFragmentManager();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,6 +37,8 @@ public class Intro extends AppCompatActivity {
 
         drawerLayout=findViewById(R.id.intro);
         navigationView=findViewById(R.id.navigation);
+
+
 
 
         if(findViewById(R.id.intro)!=null)
@@ -71,7 +75,8 @@ public class Intro extends AppCompatActivity {
                         break;
                     case R.id.login:
                         menuItem.setChecked(true);
-                        displaymessage("Login Under development");
+                        getSupportFragmentManager().popBackStack();
+                        fragment=new LogIn();
                         toolbar.setTitle("Log In");
                         drawerLayout.closeDrawers();
                         break;
