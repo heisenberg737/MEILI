@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="192dp"
     android:background="#41c300"
-    android:padding="16dp"
     android:theme="@style/ThemeOverlay.AppCompat.Dark"
     android:orientation="vertical"
     android:gravity="center">
@@ -15,5 +14,5 @@
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/meili_logo" />
+        app:srcCompat="@drawable/meilipng" />
 </LinearLayout>
