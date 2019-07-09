@@ -28,7 +28,7 @@ public class Splash extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
         imageView =  findViewById(R.id.imageView);
-        final RelativeLayout relativeLayout = (RelativeLayout) findViewById(R.id.splashLAyout);
+        final RelativeLayout relativeLayout = (RelativeLayout) findViewById(R.id.splashLayout);
         AnimationSet animset = new AnimationSet(true);
         animset.setDuration(2000);
         animset.setFillAfter(true);

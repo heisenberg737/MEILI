@@ -94,7 +94,8 @@ public class Intro extends AppCompatActivity {
                         break;
                     case R.id.guides:
                         menuItem.setChecked(true);
-                        displaymessage("Guides Under development");
+                        fragment=new guides();
+                        getSupportFragmentManager().popBackStack();
                         toolbar.setTitle("Guides");
                         drawerLayout.closeDrawers();
                         break;

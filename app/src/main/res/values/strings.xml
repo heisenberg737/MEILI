@@ -7,7 +7,8 @@
 documents, organizes meetings, and holds video conferences. Our interface intuitively integrated Orange’s extensive feature offerings. Our project scope covered the entire product, spanning from web design, to both front-end and development and an accompanying app.
     To begin, use the navigation drawer by swiping from left to right or clicking the icon on the top left corner of the screen."</string>
 
-
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>
